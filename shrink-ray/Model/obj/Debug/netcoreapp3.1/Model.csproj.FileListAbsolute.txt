@@ -1,7 +1,6 @@
 C:\Abhishek\codebase\shrink-ray\shrink-ray\Model\bin\Debug\netcoreapp3.1\Model.deps.json
 C:\Abhishek\codebase\shrink-ray\shrink-ray\Model\bin\Debug\netcoreapp3.1\Model.dll
 C:\Abhishek\codebase\shrink-ray\shrink-ray\Model\bin\Debug\netcoreapp3.1\Model.pdb
-C:\Abhishek\codebase\shrink-ray\shrink-ray\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache
 C:\Abhishek\codebase\shrink-ray\shrink-ray\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
 C:\Abhishek\codebase\shrink-ray\shrink-ray\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
 C:\Abhishek\codebase\shrink-ray\shrink-ray\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache

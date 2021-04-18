@@ -1,0 +1,15 @@
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\obj\Debug\netcoreapp3.1\Repository.csprojAssemblyReference.cache
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\bin\Debug\netcoreapp3.1\snappy32.dll
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\bin\Debug\netcoreapp3.1\snappy64.dll
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\bin\Debug\netcoreapp3.1\libzstd.dll
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\bin\Debug\netcoreapp3.1\Model.dll
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\bin\Debug\netcoreapp3.1\Model.pdb
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+C:\Abhishek\codebase\shrink-ray\shrink-ray\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
