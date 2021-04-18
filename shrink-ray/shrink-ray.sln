@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shrink-ray", "shrink-ray\shrink-ray.csproj", "{541F731B-A4B9-4299-AA55-6036E470C5AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{3CA5C1F7-5A11-4876-A59B-CF5C7634E4B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{541F731B-A4B9-4299-AA55-6036E470C5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541F731B-A4B9-4299-AA55-6036E470C5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541F731B-A4B9-4299-AA55-6036E470C5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541F731B-A4B9-4299-AA55-6036E470C5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA5C1F7-5A11-4876-A59B-CF5C7634E4B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA5C1F7-5A11-4876-A59B-CF5C7634E4B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA5C1F7-5A11-4876-A59B-CF5C7634E4B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA5C1F7-5A11-4876-A59B-CF5C7634E4B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87E26B47-FB75-4A31-8A21-61E2E34C3276}
+	EndGlobalSection
+EndGlobal
