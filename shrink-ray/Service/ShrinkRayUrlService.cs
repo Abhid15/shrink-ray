@@ -1,5 +1,5 @@
 ﻿using Model;
-using Repository.Interfaces;
+using Repository.DAL.Interfaces;
 using Service.Interfaces;
 using Service.Map;
 using System.Collections.Generic;

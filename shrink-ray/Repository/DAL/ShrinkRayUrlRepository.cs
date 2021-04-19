@@ -1,10 +1,11 @@
 ﻿using Model;
-using Repository.Interfaces;
+using Repository.DAL.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Repository
+namespace Repository.DAL
+
 {
     public class ShortUrlRepository : BaseMongoRepository<ShrinkRayUrlModel>, IRepository
     {

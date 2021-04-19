@@ -5,7 +5,7 @@ using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 
-namespace Repository
+namespace Repository.DAL
 {
     public class BaseMongoRepository<TModel>
        where TModel : MongoBaseModel

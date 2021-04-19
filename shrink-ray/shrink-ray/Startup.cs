@@ -1,15 +1,11 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using shrink_ray.Extensions;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace shrink_ray
 {
@@ -26,6 +22,19 @@ namespace shrink_ray
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.ConfigureCors();
+            services.RegisterDependencies(Configuration);
+            services.AddApiVersioning();
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new   Microsoft.OpenApi.Models.OpenApiInfo()
+                {
+                    Version = "v1",
+                    Title = "Shrink Ray: The URL Shortner",
+                    Description = "Shrink Ray is URL shortner powered MongoDB and backed strong logging and errotr handling features.",
+                    Contact = new Microsoft.OpenApi.Models.OpenApiContact() { Name = "Shrink Ray", Email = "abhishek_das@protonmail.com", Url = new Uri("https://github.com/Abhid15/shrink-ray") }
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,11 +49,16 @@ namespace shrink_ray
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            app.AddGlobalExceptionHandling();
 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+            });
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("v1/swagger.json", "My API V1");
             });
         }
     }

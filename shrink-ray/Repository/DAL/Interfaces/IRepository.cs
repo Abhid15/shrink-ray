@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Model;
 
-namespace Repository.Interfaces
+namespace Repository.DAL.Interfaces
 {
     public interface IRepository
     {
