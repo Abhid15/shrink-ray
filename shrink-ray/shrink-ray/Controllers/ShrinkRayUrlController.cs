@@ -29,7 +29,7 @@ namespace shrink_ray.Controllers
 
         [HttpGet]
         [Route("GetSpecific")]
-        public IActionResult Get(string shorturl, [FromQuery(Name = "redirect")] bool redirect = true)
+        public IActionResult GetSpecific(string shorturl, [FromQuery(Name = "redirect")] bool redirect = true)
         {
             ShrinkRayUrlModel shortUrl = shortUrlService.GetItemFromDataStore(shorturl);
 

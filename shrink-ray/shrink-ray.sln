@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "shrink-ray", "shrink-ray\sh
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "Model\Model.csproj", "{3CA5C1F7-5A11-4876-A59B-CF5C7634E4B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{A5FD0F03-BAAD-4578-8273-2F4E53989F16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{A5FD0F03-BAAD-4578-8273-2F4E53989F16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{BBD232A8-7B95-4952-B989-08D877A4DE80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "Service\Service.csproj", "{BBD232A8-7B95-4952-B989-08D877A4DE80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shrink-rayTests", "shrink-rayTests\shrink-rayTests.csproj", "{BC38AEDE-05AF-4D30-BE3D-EC16D69FAFA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{BBD232A8-7B95-4952-B989-08D877A4DE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBD232A8-7B95-4952-B989-08D877A4DE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBD232A8-7B95-4952-B989-08D877A4DE80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC38AEDE-05AF-4D30-BE3D-EC16D69FAFA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC38AEDE-05AF-4D30-BE3D-EC16D69FAFA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC38AEDE-05AF-4D30-BE3D-EC16D69FAFA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC38AEDE-05AF-4D30-BE3D-EC16D69FAFA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
