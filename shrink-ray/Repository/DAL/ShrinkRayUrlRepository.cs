@@ -7,10 +7,10 @@ using System.Text;
 namespace Repository.DAL
 
 {
-    public class ShortUrlRepository : BaseMongoRepository<ShrinkRayUrlModel>, IRepository
+    public class ShrinkRayUrlRepository : BaseMongoRepository<ShrinkRayUrlModel>, IRepository
     {
 
-        public ShortUrlRepository(string mongoDBConnectionString, string dbName, string collectionName) : base(mongoDBConnectionString, dbName, collectionName)
+        public ShrinkRayUrlRepository(string mongoDBConnectionString, string dbName, string collectionName) : base(mongoDBConnectionString, dbName, collectionName)
         {
 
         }

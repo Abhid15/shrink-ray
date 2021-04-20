@@ -4,7 +4,7 @@ using Model;
 using Service.Interfaces;
 using System.Collections.Generic;
 
-namespace ShortUrl.Controllers
+namespace shrink_ray.Controllers
 {
     [ApiVersion("1")]
     [Route("api/v{version:apiVersion}/[controller]")]
@@ -27,8 +27,9 @@ namespace ShortUrl.Controllers
             return Ok(shortUrls);
         }
 
-        [HttpGet("{shrinkry}", Name = "Get")]
-        public IActionResult GetSpecific(string shorturl, [FromQuery(Name = "redirect")] bool redirect = true)
+        [HttpGet]
+        [Route("GetSpecific")]
+        public IActionResult Get(string shorturl, [FromQuery(Name = "redirect")] bool redirect = true)
         {
             ShrinkRayUrlModel shortUrl = shortUrlService.GetItemFromDataStore(shorturl);
 

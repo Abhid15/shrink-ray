@@ -24,7 +24,7 @@ namespace shrink_ray.Extensions
         public static void RegisterDependencies(this IServiceCollection services, IConfiguration Configuration)
         {
             string mongoConnectionString = Configuration.GetConnectionString("MongoConnectionString");
-            services.AddTransient<IRepository>(s => new ShortUrlRepository(mongoConnectionString, "Url", "ShortUrl"));
+            services.AddTransient<IRepository>(s => new ShrinkRayUrlRepository(mongoConnectionString, "Url", "ShortUrl"));
             services.AddTransient<IShrinkRayUrlService, ShrinkRayUrlService>();
         }
     }
