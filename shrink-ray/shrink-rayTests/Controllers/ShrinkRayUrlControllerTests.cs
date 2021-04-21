@@ -8,6 +8,7 @@ using Service.Interfaces;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Microsoft.AspNetCore.Http;
 
 namespace shrink_ray.Controllers.Tests
 {
@@ -72,7 +73,7 @@ namespace shrink_ray.Controllers.Tests
             ShrinkRayUrlController shrinkRayUrlController = new ShrinkRayUrlController(shrinkRayUrlServiceMock.Object, loggerServiceMock.Object);
 
             //Act 
-            var output = shrinkRayUrlController.GetSpecific("RT", false);
+            var output = shrinkRayUrlController.Get("RT", false);
             var okResult = output as OkObjectResult;
 
             //Assert
@@ -97,7 +98,7 @@ namespace shrink_ray.Controllers.Tests
             ShrinkRayUrlController shrinkRayUrlController = new ShrinkRayUrlController(shrinkRayUrlServiceMock.Object, loggerServiceMock.Object);
 
             //Act 
-            var output = shrinkRayUrlController.GetSpecific("RT", true);
+            var output = shrinkRayUrlController.Get("RT", true);
             var redirectResult = output as RedirectResult;
 
             //Assert
@@ -129,8 +130,28 @@ namespace shrink_ray.Controllers.Tests
             {
                 LongURL = "https://facebook.com"
             };
+            //Setting up controller
             shrinkRayUrlServiceMock.Setup(x => x.SaveItemToDataStore(request)).Returns(resultMock);
-            ShrinkRayUrlController shrinkRayUrlController = new ShrinkRayUrlController(shrinkRayUrlServiceMock.Object, loggerServiceMock.Object);
+            var mockHttpRequest = new Mock<HttpRequest>();
+            mockHttpRequest.Setup(x => x.Scheme).Returns("http");
+            mockHttpRequest.Setup(x => x.Host).Returns(HostString.FromUriComponent("localhost:5000"));
+            mockHttpRequest.Setup(x => x.PathBase).Returns(PathString.FromUriComponent(""));
+
+            var httpContext = Mock.Of<HttpContext>(_ =>
+                _.Request == mockHttpRequest.Object
+            );
+
+            //Controller needs a controller context 
+            var controllerContext = new ControllerContext()
+            {
+                HttpContext = httpContext,
+            };
+            //assign context to controller
+            var shrinkRayUrlController = new ShrinkRayUrlController(shrinkRayUrlServiceMock.Object, loggerServiceMock.Object)
+            {
+                ControllerContext = controllerContext,
+            };
+
 
             //Act 
             var output = shrinkRayUrlController.Post(request);

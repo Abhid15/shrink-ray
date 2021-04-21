@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>shrink_ray</RootNamespace>
+    <AssemblyName>shrink-ray</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

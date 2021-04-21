@@ -7,6 +7,7 @@ namespace Model
     {
         public string Message { get; set; }
         public bool Success { get; set; }
+        public string ShrinkRayUrlModel { get; set; }
         public ShrinkRayUrlModel Model { get; set; }
     }
 }
