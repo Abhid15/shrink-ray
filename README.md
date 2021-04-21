@@ -129,4 +129,4 @@ If everything goes according to plan, all your endpoints including Swagger shoul
  
 ![image](https://user-images.githubusercontent.com/82752202/115612733-35592580-a309-11eb-87e9-b123b1c038b8.png)
 
-Retrace any steaps you feel have gone wrong and follow the tutorial carefully to understand every step! Happy Coding!
+Retrace any steps you feel have gone wrong and follow the tutorial carefully to understand every step! Happy Coding!
