@@ -233,6 +233,12 @@
           "netcoreapp3.1": {
             "targetAlias": ".NETCoreApp,Version=v3.1",
             "projectReferences": {
+              "C:\\Abhishek\\codebase\\shrink-ray\\shrink-ray\\Repository\\Repository.csproj": {
+                "projectPath": "C:\\Abhishek\\codebase\\shrink-ray\\shrink-ray\\Repository\\Repository.csproj"
+              },
+              "C:\\Abhishek\\codebase\\shrink-ray\\shrink-ray\\Service\\Service.csproj": {
+                "projectPath": "C:\\Abhishek\\codebase\\shrink-ray\\shrink-ray\\Service\\Service.csproj"
+              },
               "C:\\Abhishek\\codebase\\shrink-ray\\shrink-ray\\shrink-ray\\shrink-ray.csproj": {
                 "projectPath": "C:\\Abhishek\\codebase\\shrink-ray\\shrink-ray\\shrink-ray\\shrink-ray.csproj"
               }

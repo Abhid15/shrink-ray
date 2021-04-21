@@ -19,7 +19,11 @@ namespace shrink_ray.Controllers
             this.logger = logger;
         }
 
-        // GET: api/Default
+        
+        /// <summary>
+        /// Gets all the URL Objects
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IActionResult Get()
         {
@@ -27,6 +31,12 @@ namespace shrink_ray.Controllers
             return Ok(shortUrls);
         }
 
+        /// <summary>
+        /// Gets Specific URL or redirects from Short URL to long URL.
+        /// </summary>
+        /// <param name="shorturl"></param>
+        /// <param name="redirect"></param>
+        /// <returns></returns>
         [HttpGet]
         [Route("GetSpecific")]
         public IActionResult Get(string shorturl, [FromQuery(Name = "redirect")] bool redirect = true)
@@ -48,7 +58,11 @@ namespace shrink_ray.Controllers
             return NotFound();
         }
 
-        // POST: api/Default
+        /// <summary>
+        /// Creates Short URL Object.
+        /// </summary>
+        /// <param name="model"></param>
+        /// <returns></returns>
         [HttpPost]
         public IActionResult Post([FromBody] ShrinkRayUrlRequestModel model)
         {

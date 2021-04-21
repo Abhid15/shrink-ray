@@ -6,6 +6,10 @@ namespace shrink_ray.Extensions
 {
     public static class ConfigureExtensions
     {
+        /// <summary>
+        /// Global Error handling added to the pipeline.
+        /// </summary>
+        /// <param name="app"></param>
         public static void AddGlobalExceptionHandling(this IApplicationBuilder app)
         {
             app.UseExceptionHandler(config =>
@@ -24,7 +28,7 @@ namespace shrink_ray.Extensions
                         {
                             StatusCode = 500,
                             ErrorMessage = ex.Message
-                        }.ToString()); //ToString() is overridden to Serialize object
+                        }.ToString());
                     }
                 });
             });

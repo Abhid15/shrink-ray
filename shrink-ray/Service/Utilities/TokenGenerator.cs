@@ -7,6 +7,10 @@ namespace Service.Utilities
 {
     public static class TokenGenerator
     {
+        /// <summary>
+        /// The Generate Token method has the logic to create shortURL. It is basically a random alphanumeric code generator.
+        /// </summary>
+        /// <returns></returns>
         public static string GenerateShortUrl()
         {
             string urlsafe = string.Empty;
