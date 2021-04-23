@@ -18,7 +18,7 @@ namespace shrink_rayTests
         [TestInitialize]
         public void TestInitialize()
         {
-            this.mockRepository = new MockRepository(MockBehavior.Strict);
+            this.mockRepository = new MockRepository(MockBehavior.Default);
 
             this.mockIRepository = this.mockRepository.Create<IRepository>();
         }
@@ -107,6 +107,7 @@ namespace shrink_rayTests
             this.mockRepository.VerifyAll();
         }
 
+        [TestMethod]
         public void SaveItemToDataStore_StateUnderTest_ExpectedBehavior_NewUrl()
         {
             // Arrange
@@ -123,14 +124,14 @@ namespace shrink_rayTests
                 ShortURL = "RT"
 
             };
-            mockIRepository.Setup(x => x.GetItemFromDataStoreByLongUrl(model.LongURL));
+            mockIRepository.Setup(x => x.GetItemFromDataStoreByLongUrl(model.LongURL)).Returns((ShrinkRayUrlModel)null);
             mockIRepository.Setup(x => x.SaveItemToDataStore(shrinkRayUrlModel)).Returns(shrinkRayUrlModel);
             // Act
             var result = service.SaveItemToDataStore(
                 model);
 
             // Assert
-            this.mockRepository.VerifyAll();
+            Assert.AreEqual(result.Message, "Saved successfully");
         }
     }
 }
