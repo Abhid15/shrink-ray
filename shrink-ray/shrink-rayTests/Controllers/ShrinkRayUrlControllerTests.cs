@@ -31,7 +31,7 @@ namespace shrink_ray.Controllers.Tests
         }
 
         [TestMethod()]
-        public void GetTest()
+        public void Get_StateUnderTest_ExpectedBehavior()
         {
             //Arrange
             var resultMock = new List<ShrinkRayUrlModel>();
@@ -58,7 +58,7 @@ namespace shrink_ray.Controllers.Tests
         }
 
         [TestMethod()]
-        public void GetSpecificTest()
+        public void GetSpecific__StateUnderTest_ExpectedBehavior()
         {
             //Arrange 
             var shrinkRayUrlModel = new ShrinkRayUrlModel()
@@ -83,7 +83,7 @@ namespace shrink_ray.Controllers.Tests
 
         }
         [TestMethod()]
-        public void GetSpecificTestWhenRedirectTrue()
+        public void GetSpecific__StateUnderTest_ExpectedBehavior_WhenRedirectTrue()
         {
             //Arrange 
             var shrinkRayUrlModel = new ShrinkRayUrlModel()
@@ -108,7 +108,7 @@ namespace shrink_ray.Controllers.Tests
         }
 
         [TestMethod()]
-        public void PostTest()
+        public void Post__StateUnderTest_ExpectedBehavior()
         {
             //Arrange 
             var shrinkRayUrlModel = new ShrinkRayUrlModel()
@@ -164,7 +164,7 @@ namespace shrink_ray.Controllers.Tests
         }
 
         [TestMethod()]
-        public void PostTestBadRquest()
+        public void Post__StateUnderTest_ExpectedBehavior_BadRquest()
         {
             //Arrange 
             var shrinkRayUrlModel = new ShrinkRayUrlModel()
