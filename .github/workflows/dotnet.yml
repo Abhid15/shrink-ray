@@ -22,4 +22,4 @@ jobs:
     - name: Build
       run: dotnet build shrink-ray/shrink-ray --no-restore
     - name: Test
-      run: dotnet test shrink-ray/shrink-rayTests --no-build --verbosity normal
+      run: dotnet test shrink-ray/shrink-ray --no-build --verbosity normal
