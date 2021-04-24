@@ -3,7 +3,7 @@ WORKDIR /app
 EXPOSE 80
 
 FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
-WORKDIR src
+WORKDIR /src
 COPY ["shrink-ray/shrink-ray.csproj", "shrink-ray/"]
 RUN dotnet restore "shrink-ray/shrink-ray.csproj"
 COPY . .
