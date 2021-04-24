@@ -33,7 +33,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Versioning": "4.0.0",
           "Model": "1.0.0",
-          "NLog.Web": "4.12.0",
+          "NLog.Web": "4.9.0",
           "NLog.Web.AspNetCore": "4.12.0",
           "Repository": "1.0.0",
           "Service": "1.0.0",
@@ -534,11 +534,11 @@
           "lib/netcoreapp3.0/NLog.Extensions.Logging.dll": {}
         }
       },
-      "NLog.Web/4.12.0": {
+      "NLog.Web/4.9.0": {
         "runtime": {
           "lib/net35/NLog.Web.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.12.0.1931"
+            "fileVersion": "4.9.0.1511"
           }
         },
         "compile": {
@@ -2515,12 +2515,12 @@
       "path": "nlog.extensions.logging/1.7.2",
       "hashPath": "nlog.extensions.logging.1.7.2.nupkg.sha512"
     },
-    "NLog.Web/4.12.0": {
+    "NLog.Web/4.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-U4iRyJxmBtpUaPeoIEaehcT7CfeDzIRSr/y2YuVjREyc9/QzE21fW9cIZnsPHvf7Ys9OrlxsHcii2XBYYSxTQg==",
-      "path": "nlog.web/4.12.0",
-      "hashPath": "nlog.web.4.12.0.nupkg.sha512"
+      "sha512": "sha512-7t2Q131EO1iA9RMJ2qJsI8Piu+o3xEjVeGt5YC5cSfZjM5tHDC1ldwGsu3e5acgWUkpVCGf7IZXKo0zig0yO9w==",
+      "path": "nlog.web/4.9.0",
+      "hashPath": "nlog.web.4.9.0.nupkg.sha512"
     },
     "NLog.Web.AspNetCore/4.12.0": {
       "type": "package",
