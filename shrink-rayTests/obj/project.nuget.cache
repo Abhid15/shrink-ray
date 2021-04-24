@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WvfVw8pxtOgQIyxUAS+le7/vwE8wjSW0CSHwTBCaHqnWY5uKzZs6sA/CiGJEwVtJLzraMiDHZwJWgW0p01CPrw==",
+  "dgSpecHash": "WEtNJ4BbjES5xLL8H84+uuESyo/XMdsOvKKFKAAqRx/h4e0Zx16aDWu6t3XiT4pfq7nhKGjB78rUiW5t/lcheQ==",
   "success": true,
   "projectFilePath": "C:\\Abhishek\\codebase\\shrink-ray\\shrink-rayTests\\shrink-rayTests.csproj",
   "expectedPackageFiles": [
@@ -39,7 +39,7 @@
     "C:\\Users\\abhiT\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
     "C:\\Users\\abhiT\\.nuget\\packages\\nlog\\4.7.9\\nlog.4.7.9.nupkg.sha512",
     "C:\\Users\\abhiT\\.nuget\\packages\\nlog.extensions.logging\\1.7.2\\nlog.extensions.logging.1.7.2.nupkg.sha512",
-    "C:\\Users\\abhiT\\.nuget\\packages\\nlog.web\\4.12.0\\nlog.web.4.12.0.nupkg.sha512",
+    "C:\\Users\\abhiT\\.nuget\\packages\\nlog.web\\4.9.0\\nlog.web.4.9.0.nupkg.sha512",
     "C:\\Users\\abhiT\\.nuget\\packages\\nlog.web.aspnetcore\\4.12.0\\nlog.web.aspnetcore.4.12.0.nupkg.sha512",
     "C:\\Users\\abhiT\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\abhiT\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -134,7 +134,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'NLog.Web 4.12.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'NLog.Web 4.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "NLog.Web",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

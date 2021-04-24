@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "NVby893tttUkrtLQoiCqskjDDIiqjKHhNBYYp2bQqNi7WU2j9gyafop3YbC7rmrDHT3wx/crZfQ0JSOFL8lp4g==",
+  "dgSpecHash": "oLl24H/pvTaHMg0pIQztGB7irJ/IYgSS8nYPuK3kH0i7jiZvvbEWkhyq75l3U7pwrDvLPoFg3SDLxgMQkKCAKQ==",
   "success": true,
   "projectFilePath": "C:\\Abhishek\\codebase\\shrink-ray\\shrink-ray\\shrink-ray.csproj",
   "expectedPackageFiles": [
@@ -25,7 +25,7 @@
     "C:\\Users\\abhiT\\.nuget\\packages\\mongodb.libmongocrypt\\1.2.1\\mongodb.libmongocrypt.1.2.1.nupkg.sha512",
     "C:\\Users\\abhiT\\.nuget\\packages\\nlog\\4.7.9\\nlog.4.7.9.nupkg.sha512",
     "C:\\Users\\abhiT\\.nuget\\packages\\nlog.extensions.logging\\1.7.2\\nlog.extensions.logging.1.7.2.nupkg.sha512",
-    "C:\\Users\\abhiT\\.nuget\\packages\\nlog.web\\4.12.0\\nlog.web.4.12.0.nupkg.sha512",
+    "C:\\Users\\abhiT\\.nuget\\packages\\nlog.web\\4.9.0\\nlog.web.4.9.0.nupkg.sha512",
     "C:\\Users\\abhiT\\.nuget\\packages\\nlog.web.aspnetcore\\4.12.0\\nlog.web.aspnetcore.4.12.0.nupkg.sha512",
     "C:\\Users\\abhiT\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
     "C:\\Users\\abhiT\\.nuget\\packages\\swashbuckle.aspnetcore\\6.1.2\\swashbuckle.aspnetcore.6.1.2.nupkg.sha512",
@@ -41,7 +41,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'NLog.Web 4.12.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'NLog.Web 4.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "NLog.Web",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"

@@ -290,7 +290,7 @@
           "lib/netcoreapp3.0/NLog.Extensions.Logging.dll": {}
         }
       },
-      "NLog.Web/4.12.0": {
+      "NLog.Web/4.9.0": {
         "type": "package",
         "compile": {
           "lib/net35/NLog.Web.dll": {}
@@ -892,19 +892,17 @@
         "nlog.extensions.logging.nuspec"
       ]
     },
-    "NLog.Web/4.12.0": {
-      "sha512": "U4iRyJxmBtpUaPeoIEaehcT7CfeDzIRSr/y2YuVjREyc9/QzE21fW9cIZnsPHvf7Ys9OrlxsHcii2XBYYSxTQg==",
+    "NLog.Web/4.9.0": {
+      "sha512": "7t2Q131EO1iA9RMJ2qJsI8Piu+o3xEjVeGt5YC5cSfZjM5tHDC1ldwGsu3e5acgWUkpVCGf7IZXKo0zig0yO9w==",
       "type": "package",
-      "path": "nlog.web/4.12.0",
+      "path": "nlog.web/4.9.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "N.png",
         "lib/net35/NLog.Web.dll",
         "lib/net35/NLog.Web.xml",
-        "nlog.web.4.12.0.nupkg.sha512",
-        "nlog.web.nuspec",
-        "readme.txt"
+        "nlog.web.4.9.0.nupkg.sha512",
+        "nlog.web.nuspec"
       ]
     },
     "NLog.Web.AspNetCore/4.12.0": {
@@ -1136,7 +1134,7 @@
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.AspNetCore.Mvc.Versioning >= 4.0.0",
       "Model >= 1.0.0",
-      "NLog.Web >= 4.12.0",
+      "NLog.Web >= 4.9.0",
       "NLog.Web.AspNetCore >= 4.12.0",
       "Repository >= 1.0.0",
       "Service >= 1.0.0",
@@ -1203,7 +1201,7 @@
           },
           "NLog.Web": {
             "target": "Package",
-            "version": "[4.12.0, )"
+            "version": "[4.9.0, )"
           },
           "NLog.Web.AspNetCore": {
             "target": "Package",
@@ -1241,7 +1239,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'NLog.Web 4.12.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'NLog.Web 4.9.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
       "libraryId": "NLog.Web",
       "targetGraphs": [
         ".NETCoreApp,Version=v3.1"
