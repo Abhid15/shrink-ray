@@ -1,5 +1,6 @@
 # Shrink-Ray: The URL Shortener
 ![GitHub Workflow Status (event)](https://img.shields.io/github/workflow/status/Abhid15/shrink-ray/.NET)
+![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/abhid15/shrink-ray)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Abhid15/shrink-ray)
 
 Shrink ray is an ASP.NET Core 3.X  based Web API that can shorten long URLs and store then in a MongoDB backend. Shrink Ray apart is based on C# and comes with 3 principle endpoints, global error handling and rich logging for better diagnosis.  With Shrink-Ray, you can :
