@@ -128,7 +128,9 @@ To Run: `docker run -p 8080:80 shrinkry:v1`
 
 If everything goes according to plan, all your endpoints including Swagger should now be available at http://localhost:8080 . You can use the Docker GUI to see your container specs.
 
-Hosted Docker image: https://github.com/Abhid15/shrink-ray
+Hosted Docker image: https://hub.docker.com/r/abhid15/shrink-ray
+
+Docker Pull Command : `docker pull abhid15/shrink-ray`
  
 ![image](https://user-images.githubusercontent.com/82752202/115612733-35592580-a309-11eb-87e9-b123b1c038b8.png)
 
